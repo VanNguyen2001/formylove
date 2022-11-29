@@ -10,8 +10,11 @@
   <style>
     .img{
       width: 32%;
-      margin-top: 90px;
-      margin-left: 12px;
+    }
+    .cha{
+      display:flex;
+      align-items:center;
+      margin:auto;
     }
   html, body {
   height: 100%;
@@ -29,9 +32,9 @@ canvas {
  </HEAD>
  
  <BODY>
-  <div class="container-fluid">
+  <div class="container-fluid pt-5">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 cha">
 
   <canvas id="pinkboard"></canvas>
   <script>
@@ -269,8 +272,8 @@ var ParticlePool = (function() {
   }, 10);
 })(document.getElementById('pinkboard'));
   </script>
-  <div class=" text-center">
-          <img src="love.png" class="img text-center">
+  <div class="text-center con">
+          <img src="love.png" class="img">
         </div>
 </div>
 </div>
